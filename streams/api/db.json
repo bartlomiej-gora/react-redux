@@ -1,0 +1,14 @@
+{
+  "streams": [
+    {
+      "title": "Take ownership of the project",
+      "description": "Eloqua Sms App",
+      "id": 1
+    },
+    {
+      "description": "Scond stream",
+      "title": "Another Stream",
+      "id": 2
+    }
+  ]
+}
