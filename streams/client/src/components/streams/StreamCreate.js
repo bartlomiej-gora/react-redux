@@ -16,7 +16,7 @@ class StreamCreate extends React.Component {
 
   renderInput = ({ input, label, meta }) => {
     return (
-      <div className="filed">
+      <div className="field">
         <label>{label}</label>
         <input {...input} />
         {this.renderError(meta)}
@@ -25,8 +25,8 @@ class StreamCreate extends React.Component {
   };
 
   onSubmit = (formValues) => {
-    this.props.createStream(formValues)
-  }
+    this.props.createStream(formValues);
+  };
   render() {
     return (
       <form
